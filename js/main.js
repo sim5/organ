@@ -18,7 +18,7 @@ window.onload = function() {
     function preload() {
 
         game.load.image( 'world', 'assets/32.jpg' );
-        game.load.image( 'ambulance', 'assets/ambl.png');
+        game.load.image( 'ambulance', 'assets/ambul.png');
         game.load.image( 'cars', 'assets/car.png');
 		    game.load.image( 'lefts', 'assets/leftee.png');
         game.load.image( 'deerz', 'assets/deers.png');
@@ -144,7 +144,7 @@ var time;
         
      
         isAlive = true;
-        lives = 3;
+        lives = 5;
         
         style = { font: "65px Arial", fill: "#ff0044", align: "center" };
     }
